@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Founder portrait placeholder frame">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="55%" stop-color="#0E0E10"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <radialGradient id="crimsonGlow" cx="85%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#E50914" stop-opacity="0.32"/>
+      <stop offset="55%" stop-color="#E50914" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="topLight" cx="50%" cy="15%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silhouetteGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A2A2E"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#bgGrad)"/>
+  <rect width="600" height="800" fill="url(#crimsonGlow)"/>
+  <rect width="600" height="800" fill="url(#topLight)"/>
+
+  <!-- Subtle architectural studio grid lines -->
+  <line x1="60" y1="0" x2="60" y2="800" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="540" y1="0" x2="540" y2="800" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="120" x2="600" y2="120" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="680" x2="600" y2="680" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Minimalist editorial studio portrait silhouette -->
+  <circle cx="300" cy="270" r="82" fill="url(#silhouetteGrad)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5"/>
+  <path d="M135 660 C135 505 205 425 300 425 C395 425 465 505 465 660 L465 800 L135 800 Z" fill="url(#silhouetteGrad)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5"/>
+
+  <!-- Camera framing reticles -->
+  <path d="M40 68 L40 40 L68 40" fill="none" stroke="#E50914" stroke-width="2" stroke-opacity="0.8"/>
+  <path d="M532 40 L560 40 L560 68" fill="none" stroke="#E50914" stroke-width="2" stroke-opacity="0.8"/>
+  <path d="M40 732 L40 760 L68 760" fill="none" stroke="#E50914" stroke-width="2" stroke-opacity="0.8"/>
+  <path d="M532 760 L560 760 L560 732" fill="none" stroke="#E50914" stroke-width="2" stroke-opacity="0.8"/>
+
+  <!-- Replaceable portrait guidance label -->
+  <rect x="130" y="590" width="340" height="68" fill="#080808" fill-opacity="0.88" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <text x="300" y="618" text-anchor="middle" fill="#E50914" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="3">AHMAD · FOUNDER</text>
+  <text x="300" y="641" text-anchor="middle" fill="#A1A1AA" font-family="sans-serif" font-size="12" letter-spacing="0.5">Awaiting uploaded photograph</text>
+</svg>
